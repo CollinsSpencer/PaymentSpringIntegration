@@ -1,5 +1,7 @@
 <template>
   <div id="app">
+    <h1>Box of Rocks App</h1>
+
     <p>{{ message }}</p>
   </div>
 </template>

@@ -1,0 +1,45 @@
+<div id="app">
+
+  <div class="px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">
+    <h1 class="display-4">Box of Rocks</h1>
+    <p class="lead">The gift that will show your friends how much they mean to you.</p>
+  </div>
+
+  <div class="container">
+    <div class="card-deck mb-3 text-center">
+
+      <div class="card mb-4 shadow-sm">
+        <div class="card-header">
+          <h4 class="my-0 font-weight-normal">Just Once</h4>
+        </div>
+        <div class="card-body">
+          <h1 class="card-title pricing-card-title">$10</h1>
+          <ul class="list-unstyled mt-3 mb-4">
+            <li>1-10 rocks included</li>
+            <li>1 box shipped</li>
+            <li>24/7 support</li>
+          </ul>
+          <%= link_to "Gimme", checkout_path, class: "btn btn-lg btn-block btn-outline-primary" %>
+        </div>
+      </div>
+
+      <div class="card mb-4 shadow-sm">
+        <div class="card-header">
+          <h4 class="my-0 font-weight-normal">Subscription Box</h4>
+        </div>
+        <div class="card-body">
+          <h1 class="card-title pricing-card-title">$9 <small class="text-muted">/ week</small></h1>
+          <ul class="list-unstyled mt-3 mb-4">
+            <li>4-8 rocks included</li>
+            <li>1 box shipped weekly</li>
+            <li>24/7 support</li>
+          </ul>
+          <%= link_to "Let's do this", checkout_path, class: "btn btn-lg btn-block btn-primary" %>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <rocks-footer></rocks-footer>
+</div>
