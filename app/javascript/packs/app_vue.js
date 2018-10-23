@@ -2,11 +2,13 @@
 
 import Vue from 'vue/dist/vue.esm'
 import BootstrapVue from 'bootstrap-vue'
+import VueJsonp from 'vue-jsonp'
 import CheckoutSingle from '../components/CheckoutSingle.vue'
 import CheckoutSubscribe from '../components/CheckoutSubscribe.vue'
 import RocksFooter from '../components/RocksFooter.vue'
 
 Vue.use(BootstrapVue);
+Vue.use(VueJsonp);
 
 document.addEventListener('DOMContentLoaded', () => {
   const app = new Vue({

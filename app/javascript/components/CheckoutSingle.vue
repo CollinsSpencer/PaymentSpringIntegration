@@ -24,7 +24,6 @@
 
 <script>
   import Checkout from './Checkout.vue';
-  import VueJsonp from 'vue-jsonp';
 
   export default {
     components: {
@@ -45,7 +44,7 @@
       }
     },
     methods: {
-      submit: function () {
+      submit () {
         let vm = this;
 
         // Not ideal location...
@@ -53,11 +52,11 @@
 
         const data = {
           'public_api_key': publicKey,
-          'card_number': vm.ccNumber,
-          'card_exp_month': vm.ccExpirationMonth,
-          'card_exp_year': vm.ccExpirationYear,
-          'csc': vm.ccCvv,
-          'card_owner_name': vm.ccName,
+          'card_number': vm.checkoutprops.ccNumber,
+          'card_exp_month': vm.checkoutprops.ccExpirationMonth,
+          'card_exp_year': vm.checkoutprops.ccExpirationYear,
+          'csc': vm.checkoutprops.ccCvv,
+          'card_owner_name': vm.checkoutprops.ccName,
         };
 
         vm.$jsonp('https://api.paymentspring.com/api/v1/tokens/jsonp', data).then(json => {
@@ -65,9 +64,9 @@
           // Send directly down to backend.
           const customerInfo = {
             ...json,
-            'first_name': vm.firstName,
-            'last_name': vm.lastName,
-            'email': vm.email
+            'first_name': vm.checkoutprops.firstName,
+            'last_name': vm.checkoutprops.lastName,
+            'email': vm.checkoutprops.email
           };
           vm.$http.post('/single_payment', customerInfo).then(window.location.href = "/confirmation");
         }).catch(err => {
