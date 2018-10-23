@@ -2,19 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4c5c22b8-9cc9-4d2f-94f0-13bd29094b3c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/pages_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/pages_controller.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/javascript/components/Checkout.vue" beforeDir="false" afterPath="$PROJECT_DIR$/app/javascript/components/Checkout.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/javascript/components/CheckoutSingle.vue" beforeDir="false" afterPath="$PROJECT_DIR$/app/javascript/components/CheckoutSingle.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/javascript/components/CheckoutSubscribe.vue" beforeDir="false" afterPath="$PROJECT_DIR$/app/javascript/components/CheckoutSubscribe.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/javascript/packs/app_vue.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/javascript/packs/app_vue.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/pages/checkout.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/pages/checkout.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/pages/welcome.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/pages/welcome.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/routes.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -67,7 +56,7 @@
           <entry key="md" value="1" />
           <entry key="rb" value="275" />
           <entry key="scss" value="12" />
-          <entry key="vue" value="1995" />
+          <entry key="vue" value="2025" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
@@ -79,7 +68,7 @@
           <entry key="RHTML" value="714" />
           <entry key="Ruby" value="291" />
           <entry key="SCSS" value="12" />
-          <entry key="Vue.js" value="1994" />
+          <entry key="Vue.js" value="2024" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.actions.runAnything" />
@@ -132,8 +121,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/javascript/components/CheckoutSingle.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="24" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
+            <state relative-caret-position="633">
+              <caret line="60" column="10" selection-start-line="60" selection-start-column="10" selection-end-line="60" selection-end-column="10" />
               <folding>
                 <element signature="e#639#677#0" expanded="true" />
               </folding>
@@ -144,8 +133,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/controllers/pages_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="25" column="38" selection-start-line="25" selection-start-column="38" selection-end-line="25" selection-end-column="38" />
+            <state relative-caret-position="465">
+              <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
             </state>
           </provider>
         </entry>
@@ -153,8 +142,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/javascript/components/CheckoutSubscribe.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="10" selection-start-line="5" selection-end-line="6" />
+            <state relative-caret-position="678">
+              <caret line="62" column="8" selection-start-line="62" selection-start-column="8" selection-end-line="75" selection-end-column="11" />
               <folding>
                 <element signature="e#639#677#0" expanded="true" />
               </folding>
@@ -206,11 +195,11 @@
         <option value="$PROJECT_DIR$/app/javascript/components/Checkout.vue" />
         <option value="$PROJECT_DIR$/app/views/pages/welcome.html.erb" />
         <option value="$PROJECT_DIR$/app/views/pages/checkout.html.erb" />
-        <option value="$PROJECT_DIR$/app/javascript/components/CheckoutSubscribe.vue" />
         <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/app/controllers/pages_controller.rb" />
         <option value="$PROJECT_DIR$/app/javascript/packs/app_vue.js" />
         <option value="$PROJECT_DIR$/app/javascript/components/CheckoutSingle.vue" />
+        <option value="$PROJECT_DIR$/app/javascript/components/CheckoutSubscribe.vue" />
       </list>
     </option>
   </component>
@@ -471,12 +460,12 @@
       <updated>1539096855617</updated>
       <workItem from="1539096858282" duration="3363000" />
       <workItem from="1539100609665" duration="11986000" />
-      <workItem from="1540306241458" duration="5768000" />
+      <workItem from="1540306241458" duration="6826000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21117000" />
+    <option name="totallyTimeSpent" value="22175000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -640,13 +629,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/pages_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="38" selection-start-line="25" selection-start-column="38" selection-end-line="25" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/javascript/components/Checkout.vue">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="843">
@@ -679,10 +661,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/pages_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/javascript/components/CheckoutSubscribe.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="10" selection-start-line="5" selection-end-line="6" />
+        <state relative-caret-position="678">
+          <caret line="62" column="8" selection-start-line="62" selection-start-column="8" selection-end-line="75" selection-end-column="11" />
           <folding>
             <element signature="e#639#677#0" expanded="true" />
           </folding>
@@ -691,8 +680,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/javascript/components/CheckoutSingle.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="24" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
+        <state relative-caret-position="633">
+          <caret line="60" column="10" selection-start-line="60" selection-start-column="10" selection-end-line="60" selection-end-column="10" />
           <folding>
             <element signature="e#639#677#0" expanded="true" />
           </folding>

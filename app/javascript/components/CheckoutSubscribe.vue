@@ -49,31 +49,31 @@
         let vm = this;
 
         // Not ideal location...
-        let publicKey = 'test_ca3eaf7dca977c9c98a7a7e6bf1b35f287a96cae7c12df80cf2a40e5b4';
+        const publicKey = 'test_ca3eaf7dca977c9c98a7a7e6bf1b35f287a96cae7c12df80cf2a40e5b4';
 
-        data = {
+        const data = {
           'public_api_key': publicKey,
           'card_number': vm.ccNumber,
           'card_exp_month': vm.ccExpirationMonth,
           'card_exp_year': vm.ccExpirationYear,
           'csc': vm.ccCvv,
-          'card_owner_name': vm.ccName
-        },
+          'card_owner_name': vm.ccName,
+        };
 
-          vm.$jsonp('https://api.paymentspring.com/api/v1/tokens/jsonp', data).then(json => {
-            // Success.
-            // Send directly down to backend.
-            const customerInfo = {
-              ...json,
-              'first_name': vm.firstName,
-              'last_name': vm.lastName,
-              'email': vm.email
-            };
-            vs.$http.post('/single_payment', customerInfo);
-          }).catch(err => {
-            // Failed.
-            alert("fail");
-          });
+        vm.$jsonp('https://api.paymentspring.com/api/v1/tokens/jsonp', data).then(json => {
+          // Success.
+          // Send directly down to backend.
+          const customerInfo = {
+            ...json,
+            'first_name': vm.firstName,
+            'last_name': vm.lastName,
+            'email': vm.email
+          };
+          vs.$http.post('/single_payment', customerInfo);
+        }).catch(err => {
+          // Failed.
+          alert("fail");
+        });
       }
     }
   }
