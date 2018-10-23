@@ -72,7 +72,7 @@
           vm.$http.post('/subscribe_payment', customerInfo).then(window.location.href = "/confirmation");
         }).catch(err => {
           // Failed.
-          alert("fail");
+            window.location.href = "/fail";
         });
       }
     }
