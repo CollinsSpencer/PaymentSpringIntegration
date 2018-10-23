@@ -13,7 +13,7 @@
             <checkout v-bind.sync="checkoutprops"></checkout>
 
             <hr class="mb-4">
-            <button class="btn btn-primary btn-lg btn-block" v-on:click="submit">Checkout</button>
+            <button class="btn btn-primary btn-lg btn-block" v-on:click="submit($event)">Checkout</button>
 
           </form>
         </div>
@@ -44,7 +44,8 @@
       }
     },
     methods: {
-      submit () {
+      submit (e) {
+        e.preventDefault();
         let vm = this;
 
         // Not ideal location...

@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4c5c22b8-9cc9-4d2f-94f0-13bd29094b3c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/javascript/components/CheckoutSingle.vue" beforeDir="false" afterPath="$PROJECT_DIR$/app/javascript/components/CheckoutSingle.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/javascript/components/CheckoutSubscribe.vue" beforeDir="false" afterPath="$PROJECT_DIR$/app/javascript/components/CheckoutSubscribe.vue" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -55,7 +57,7 @@
           <entry key="md" value="1" />
           <entry key="rb" value="276" />
           <entry key="scss" value="12" />
-          <entry key="vue" value="2102" />
+          <entry key="vue" value="2134" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
@@ -67,7 +69,7 @@
           <entry key="RHTML" value="714" />
           <entry key="Ruby" value="292" />
           <entry key="SCSS" value="12" />
-          <entry key="Vue.js" value="2101" />
+          <entry key="Vue.js" value="2133" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.actions.runAnything" />
@@ -119,8 +121,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/javascript/components/CheckoutSingle.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="448">
-              <caret line="70" column="40" selection-start-line="70" selection-start-column="26" selection-end-line="70" selection-end-column="40" />
+            <state relative-caret-position="152">
+              <caret line="47" column="9" lean-forward="true" selection-start-line="47" selection-end-line="48" />
             </state>
           </provider>
         </entry>
@@ -128,8 +130,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/controllers/pages_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="69">
-              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+            <state relative-caret-position="-6">
+              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
             </state>
           </provider>
         </entry>
@@ -137,8 +139,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/javascript/components/CheckoutSubscribe.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="483">
-              <caret line="70" column="35" selection-start-line="70" selection-start-column="35" selection-end-line="70" selection-end-column="35" />
+            <state relative-caret-position="225">
+              <caret line="15" column="87" selection-start-line="15" selection-start-column="87" selection-end-line="15" selection-end-column="87" />
             </state>
           </provider>
         </entry>
@@ -443,12 +445,12 @@
       <updated>1539096855617</updated>
       <workItem from="1539096858282" duration="3363000" />
       <workItem from="1539100609665" duration="11986000" />
-      <workItem from="1540306241458" duration="9171000" />
+      <workItem from="1540306241458" duration="9685000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24520000" />
+    <option name="totallyTimeSpent" value="25034000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -476,7 +478,7 @@
       <window_info anchor="bottom" id="Docker" order="7" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.46978852" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.46978852" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -664,24 +666,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/javascript/components/CheckoutSingle.vue">
+    <entry file="file://$PROJECT_DIR$/app/controllers/pages_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="448">
-          <caret line="70" column="40" selection-start-line="70" selection-start-column="26" selection-end-line="70" selection-end-column="40" />
+        <state relative-caret-position="-6">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/pages_controller.rb">
+    <entry file="file://$PROJECT_DIR$/app/javascript/components/CheckoutSingle.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        <state relative-caret-position="152">
+          <caret line="47" column="9" lean-forward="true" selection-start-line="47" selection-end-line="48" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/javascript/components/CheckoutSubscribe.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="70" column="35" selection-start-line="70" selection-start-column="35" selection-end-line="70" selection-end-column="35" />
+        <state relative-caret-position="225">
+          <caret line="15" column="87" selection-start-line="15" selection-start-column="87" selection-end-line="15" selection-end-column="87" />
         </state>
       </provider>
     </entry>
