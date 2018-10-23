@@ -1,5 +1,9 @@
 <div id="app">
-  <checkout-single></checkout-single>
+  <% if params["type"] == "single" %>
+    <checkout-single></checkout-single>
+  <% else %>
+    <checkout-subscribe></checkout-subscribe>
+  <% end %>
 
   <rocks-footer></rocks-footer>
 </div>
