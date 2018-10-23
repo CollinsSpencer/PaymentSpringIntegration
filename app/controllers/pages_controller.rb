@@ -12,6 +12,9 @@ class PagesController < ApplicationController
   def checkout
   end
 
+  def confirmation
+  end
+
   def single
   #   Make a charge
 

@@ -68,8 +68,7 @@
             'last_name': vm.checkoutprops.lastName,
             'email': vm.checkoutprops.email
           };
-          console.log(customerInfo);
-          vm.$http.post('/single_payment', customerInfo);
+          vm.$http.post('/single_payment', customerInfo).then(window.location.href = "/confirmation");
         }).catch(err => {
           // Failed.
           alert("fail");
