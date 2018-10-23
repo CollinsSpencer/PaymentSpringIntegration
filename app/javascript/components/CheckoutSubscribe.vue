@@ -13,7 +13,7 @@
             <checkout v-bind.sync="checkoutprops"></checkout>
 
             <hr class="mb-4">
-            <button class="btn btn-primary btn-lg btn-block" type="submit" v-on:click="submit">Checkout</button>
+            <button class="btn btn-primary btn-lg btn-block" v-on:click="submit">Checkout</button>
 
           </form>
         </div>
@@ -53,7 +53,7 @@
         const data = {
           'public_api_key': publicKey,
           'card_number': vm.checkoutprops.ccNumber,
-          'card_exp_month': vm.checkoutprops.cExpirationMonth,
+          'card_exp_month': vm.checkoutprops.ccExpirationMonth,
           'card_exp_year': vm.checkoutprops.ccExpirationYear,
           'csc': vm.checkoutprops.ccCvv,
           'card_owner_name': vm.checkoutprops.ccName,

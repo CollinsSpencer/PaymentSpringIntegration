@@ -13,7 +13,7 @@
             <checkout v-bind.sync="checkoutprops"></checkout>
 
             <hr class="mb-4">
-            <button class="btn btn-primary btn-lg btn-block" type="submit" v-on:click="submit">Checkout</button>
+            <button class="btn btn-primary btn-lg btn-block" v-on:click="submit">Checkout</button>
 
           </form>
         </div>
@@ -68,6 +68,7 @@
             'last_name': vm.checkoutprops.lastName,
             'email': vm.checkoutprops.email
           };
+          console.log(customerInfo);
           vm.$http.post('/single_payment', customerInfo);
         }).catch(err => {
           // Failed.

@@ -1,6 +1,9 @@
 require 'httparty'
 
 class PagesController < ApplicationController
+  protect_from_forgery with: :exception
+  skip_before_action :verify_authenticity_token
+
   @@priv_key = "test_8d979b6288268a23ee05aa47a7"
 
   def welcome
