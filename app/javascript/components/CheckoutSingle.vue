@@ -69,7 +69,7 @@
             'last_name': vm.lastName,
             'email': vm.email
           };
-          vs.$http.post('/single_payment', customerInfo);
+          vm.$http.post('/single_payment', customerInfo).then(window.location.href = "/confirmation");
         }).catch(err => {
           // Failed.
           alert("fail");
