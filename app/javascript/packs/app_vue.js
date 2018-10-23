@@ -2,7 +2,7 @@
 
 import Vue from 'vue/dist/vue.esm'
 import BootstrapVue from 'bootstrap-vue'
-import Checkout from '../components/Checkout.vue'
+import CheckoutSingle from '../components/CheckoutSingle.vue'
 import RocksFooter from '../components/RocksFooter.vue'
 
 Vue.use(BootstrapVue);
@@ -13,6 +13,6 @@ document.addEventListener('DOMContentLoaded', () => {
     data: {
       message: "Can you say hello?"
     },
-    components: { Checkout, RocksFooter }
+    components: { CheckoutSingle, RocksFooter }
   })
 })
