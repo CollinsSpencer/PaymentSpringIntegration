@@ -51,11 +51,28 @@ class PagesController < ApplicationController
     }
     url = 'https://api.paymentspring.com/api/v1/customers'
     response = HTTParty.send(:post, url, parameters)
+    puts "Create Customer Response"
     puts response
 
     # Store customer in DB
-    @customer = Customer.new(name: "#{response['first_name']} #{response['last_name']}", email: response["email"], customer_id: response["id"])
-    puts @customer
+    @customer = Customer.new(
+      first_name: response["first_name"],
+      last_name: response["last_name"],
+      customer_id: response["id"],
+      email: response["email"],
+      address_1: response["address_1"],
+      addres_2: response["address_2"],
+      city: response["city"],
+      state: response["state"],
+      zip: response["zip"],
+      phone: response["phone"],
+      country: response["country"],
+      card_type: response["card_type"],
+      last_4: response["last_4"],
+      card_exp_month: response["card_exp_month"],
+      card_exp_year: response["card_exp_year"],
+      default_method_id: response["default_method_id"]
+    )
 
     # Subscribe Customer
     subscription_parameters = {

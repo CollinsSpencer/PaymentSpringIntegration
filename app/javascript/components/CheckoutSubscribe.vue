@@ -44,7 +44,7 @@
       }
     },
     methods: {
-      submit: function () {
+      submit (e) {
         e.preventDefault();
         let vm = this;
 
