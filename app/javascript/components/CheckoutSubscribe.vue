@@ -68,7 +68,7 @@
             'last_name': vm.checkoutprops.lastName,
             'email': vm.checkoutprops.email
           };
-          vm.$http.post('/single_payment', customerInfo).then(window.location.href = "/confirmation");
+          vm.$http.post('/subscribe_payment', customerInfo).then(window.location.href = "/confirmation");
         }).catch(err => {
           // Failed.
           alert("fail");
